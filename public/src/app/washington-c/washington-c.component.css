@@ -1,0 +1,15 @@
+.containerCity{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 3px solid black;
+}
+.cityWether{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cityimg{
+    height: auto;
+    width: 30%;
+}

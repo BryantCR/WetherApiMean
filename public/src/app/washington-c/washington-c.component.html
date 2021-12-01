@@ -1,0 +1,22 @@
+<div *ngIf = "">
+    <div class="containerCity">
+        <div class="title">
+            <h1>
+                Washington, DC
+            </h1>
+        </div>
+        <div class="cityWether">
+            <div class="wetherInfo">
+                <h4>Humidity: {{cityInfoWashington.main.humidity}}</h4>
+                <h4>Temperature (Average): {{cityInfoWashington.main.temp}}</h4>
+                <h4>Temperature (High): {{cityInfoWashington.main.temp_max}}</h4>
+                <h4>Temperature (Low): {{cityInfoWashington.main.temp_min}}</h4>
+                <h4>Status: {{cityInfoWashington.weather[0].description}}</h4>
+            </div>
+            <div class="img">
+                <img class="cityimg" src="https://images.pexels.com/photos/5012381/pexels-photo-5012381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+            </div>
+        </div>
+    </div>
+</div>
+
