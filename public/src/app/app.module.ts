@@ -27,7 +27,8 @@ import { DallasCComponent } from './dallas-c/dallas-c.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [HttpService],
   bootstrap: [AppComponent]

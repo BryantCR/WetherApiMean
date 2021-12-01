@@ -13,6 +13,7 @@ export class SanjoseCComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.getWetherSanjose();
   }
 
   wether: any = {};

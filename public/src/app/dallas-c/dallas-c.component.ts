@@ -13,6 +13,7 @@ export class DallasCComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.getWetherDallas();
   }
 
   wether: any = {};

@@ -16,10 +16,10 @@ export class SeattleCComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.getWetherSeattle();
   }
 
   getWetherSeattle():void{
-    this.flag = !this.flag;
     this._httpService.requestWetherSeattle()
     .subscribe((data:any)=>{
       this.cityInfoSeattle = data;

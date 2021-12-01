@@ -13,6 +13,7 @@ export class WashingtonCComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.getWetherWashington();
   }
 
   cityInfoWashington: any = {};

@@ -13,6 +13,7 @@ export class BurbankCComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.getWetherWashington();
   }
 
   wether: any = {};

@@ -15,7 +15,7 @@ export class HttpService {
   }
 
   requestWetherSanjose(){
-    return this._http.get('https://api.openweathermap.org/data/2.5/weather?q=sanfrancisco&appid=cf2afc9d3eb1ff2bce9b6b1e42297641');
+    return this._http.get('https://api.openweathermap.org/data/2.5/weather?id=5392171&appid=34dc26041c2b371e9162b92b8348d971');
   }
 
   requestWetherBurbank(){

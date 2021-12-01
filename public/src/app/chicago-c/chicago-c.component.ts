@@ -13,6 +13,7 @@ export class ChicagoCComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.getWetherChicago();
   }
 
   wether: any = {};
